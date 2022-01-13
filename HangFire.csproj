@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>b9b2d7f7-c5ae-454c-894f-f125b3f37625</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
+	  <PackageReference Include="Hangfire.Core" Version="1.7.*" />
+	  <PackageReference Include="Hangfire.SqlServer" Version="1.7.*" />
+	  <PackageReference Include="Hangfire.AspNetCore" Version="1.7.*" />
+	  <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />	  
+  </ItemGroup>
+
+</Project>
